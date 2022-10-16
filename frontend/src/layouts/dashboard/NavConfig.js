@@ -12,11 +12,6 @@ const navConfig = [
     icon: getIcon('eva:pie-chart-2-fill'),
   },
   {
-    title: 'user',
-    path: '/dashboard/user',
-    icon: getIcon('eva:people-fill'),
-  },
-  {
     title: "logout",
     path: "/logout",
     icon: getIcon("eva:log-out-outline")
