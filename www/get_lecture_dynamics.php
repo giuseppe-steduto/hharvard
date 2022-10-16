@@ -54,9 +54,10 @@ foreach ($res as $lec) {
             "Happiness" => intval($lec["happiness"]),
             "Boredom" => intval($lec["boredom"]),
             "Anger" => intval($lec["anger"]),
-            "anxiety" => intval($lec["anxiety"]),
-            "sadness" => intval($lec["sadness"]),
-            "boredom" => intval($lec["boredom"])
+            "Anxiety" => intval($lec["anxiety"]),
+            "Sadness" => intval($lec["sadness"]),
+            "Disgust" => intval($lec["disgust"]),
+            "Neutral" => intval($lec["neutral"]),
         ],
         "total" => intval($lec["total"])
     ];
