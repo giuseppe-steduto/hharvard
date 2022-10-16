@@ -72,13 +72,6 @@ services:
       - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
     networks:
       - hackharvard-network
-  redis:
-    container_name: "${COMPOSE_PROJECT_NAME}-redis"
-    image: redis:latest
-    ports:
-      - "127.0.0.1:${HOST_MACHINE_REDIS_PORT}:6379"
-    networks:
-      - hackharvard-network
 
   frontend:
     build:
